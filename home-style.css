@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+#nav-container{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #505050;
+}
+.topnav{
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #505050;
+}
+#tittle-robby{
+    top: 12px;
+    float: left;
+}
+.tittle{
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.icon{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+    display: inline-block;
+}
+#icons-container-top{
+    position: relative;
+    top: 8px;
+    float: right;
+}
+.icon-dribbble{
+    background-image: url("http://www.rleonardi.com/image/icon-dribbble.png");
+}
+
+.icon-email{
+    background-image: url("http://www.rleonardi.com/image/icon-email.png");
+}
+
+.icon-facebook{
+    background-image: url("http://www.rleonardi.com/image/icon-facebook.png");
+}
+
+.icon-instagram{
+    background-image: url("http://www.rleonardi.com/image/icon-instagram.png");
+}
+
+.icon-linkedin{
+    background-image: url("http://www.rleonardi.com/image/icon-linkedin.png");
+}
+
+.icon-twitter{
+    background-image: url("http://www.rleonardi.com/image/icon-twitter.png");
+}
+.portfolio{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+#p-1{
+    background-image: url(http://www.rleonardi.com/image/ground.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-color: #00bff3;
+}
+.p-container{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#p-container-1{
+    background-image: url("http://www.rleonardi.com/image/interactive-resume.png");
+}
+.p-text-container{
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.p-text-left{
+    left: 0px;
+}
+.p-title{
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 56px;
+    margin-bottom: 18px;
+}
+.p-body{
+    position: relative;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.p-button{
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+#p2{
+    background-color: #f9bf3b;
+}
+#p-container-2{
+    background-image: url("http://www.rleonardi.com/image/illustration-portfolio.png");
+}
+.p-text-right{
+    right: 0px;
+}
